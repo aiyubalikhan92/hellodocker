@@ -2,7 +2,7 @@
     "family": "nginx",
     "containerDefinitions": [
         {
-            "image": "nginx",
+            "image": "$IMAGE",
             "name": "new-aiyuban",
             "cpu": 10,
             "memory": 256,
